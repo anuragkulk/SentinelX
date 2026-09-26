@@ -1,0 +1,6 @@
+ip,username,detections,failed_attempts,risk_score,severity
+192.168.1.201,admin,Repeated Failed Logins,10,50,MEDIUM
+192.168.1.202,"user2, admin, user1, guest","Repeated Failed Logins, Multiple Users Targeted, Failed Login Followed By Success",4,70,HIGH
+192.168.1.203,"administrator, admin, test, guest","Repeated Failed Logins, Multiple Users Targeted",8,55,MEDIUM
+192.168.1.204,admin,"Repeated Failed Logins, Failed Login Followed By Success",4,50,MEDIUM
+192.168.1.205,"user2, admin, user1, guest","Repeated Failed Logins, Multiple Users Targeted, Failed Login Followed By Success",8,85,CRITICAL
